@@ -12,6 +12,6 @@ resource "aws_instance" "HemaEc2" {
     instance_type="t2.micro"
   
 }
-tags {
+tags = {
     name= "HemaEC2"
 }
