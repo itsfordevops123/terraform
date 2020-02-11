@@ -1,11 +1,7 @@
 provider "aws" {
   region= "us-east-2"
   profile= "hema"
-  assume_role {
-      role_arn = "arn:aws:iam::486674086191:user/hema"
-      session_name = "SESSION_NAME"
-      external_id  = "EXTERNAL_ID"
-    }   
+  
 }
 
 resource "aws_instance" "HemaEc2" {
