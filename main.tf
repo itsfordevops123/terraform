@@ -1,7 +1,7 @@
 provider "aws" {
   region= "us-east-2"
   {
-      assume_role{
+      assume_role {
           role_arn = "arn:aws:iam::486674086191:user/hema"
           session_name = "SESSION_NAME"
           external_id  = "EXTERNAL_ID"
